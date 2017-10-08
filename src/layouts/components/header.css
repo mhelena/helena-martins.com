@@ -1,0 +1,81 @@
+.navbar {
+    flex: 1;
+    border-color: transparent;
+    position: relative;
+}
+
+.navbar .main-menu {
+    display: flex;
+}
+
+.hide {
+    display: none;
+}
+
+.navbar ul {
+    width: 100%;
+    list-style: none;
+    margin: 1rem 0 0 0;
+    padding: 0;
+}
+
+.navbar li a {
+    display: block;
+    padding: 0.5em;
+    background: black;
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid #0F9962;
+}
+
+.navbar li a:hover,
+.navbar li a:focus {
+    background: #0F9962;
+}
+
+.navbar .navbar-nav > .active > a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #1ee2e7;
+}
+
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #17d0d5;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent;
+        transition: padding .3s;
+        display: flex;
+    }
+
+    .navbar-collapse {
+        flex: 1;
+        align-self: flex-end;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navbar ul li {
+        position: relative;
+        text-align: center;
+        flex: 1;
+    }
+
+    .navbar ul li a {
+        background: white;
+        color: black;
+    }
+
+    #navIcon {
+        display: none;
+    }
+}
