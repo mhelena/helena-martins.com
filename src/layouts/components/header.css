@@ -1,81 +1,88 @@
 .navbar {
-    flex: 1;
-    border-color: transparent;
-    position: relative;
+  flex: 1;
+  border-color: transparent;
+  position: relative;
 }
 
 .navbar .main-menu {
-    display: flex;
+  display: flex;
+  color: #333;
 }
 
 .hide {
-    display: none;
+  display: none;
+  transition:all .5s;
+}
+
+.navbar-links {
+  position: absolute;
+  width: 100%;
+  background-color: #FFF;
+  margin-top: 1rem;
+  /*z-index: 40;*/
 }
 
 .navbar ul {
-    width: 100%;
-    list-style: none;
-    margin: 1rem 0 0 0;
-    padding: 0;
+  width: 100%;
+  list-style: none;
+  margin: 1rem 0 0 0;
+  padding: 0;
 }
 
 .navbar li a {
-    display: block;
-    padding: 0.5em;
-    background: black;
-    color: white;
-    text-decoration: none;
-    border-right: 1px solid #0F9962;
+  display: block;
+  padding: 0.3em;
+  text-decoration: none;
 }
 
 .navbar li a:hover,
 .navbar li a:focus {
-    background: #0F9962;
-}
-
-.navbar .navbar-nav > .active > a {
-    border-radius: 0;
-    color: #fff;
-    background-color: #1ee2e7;
-}
-
-.navbar .navbar-nav > .active > a:hover,
-.navbar .navbar-nav > .active > a:focus {
-    color: #fff;
-    background-color: #17d0d5;
+  background: #eeeeee;
 }
 
 @media (min-width: 768px) {
-    .navbar {
-        padding: 25px 0;
-        border: 0;
-        background-color: transparent;
-        transition: padding .3s;
-        display: flex;
-    }
+  .navbar {
+    padding: 0.5rem 0;
+    border: 0;
+    background-color: transparent;
+    transition: padding .3s;
+    display: flex;
+  }
 
-    .navbar-collapse {
-        flex: 1;
-        align-self: flex-end;
-    }
+  .navbar .main-menu {
+    margin-right: 5rem;
+  }
 
-    .navbar ul {
-        display: flex;
-        flex-direction: row;
-    }
+  .navbar-links {
+    flex: 1;
+    align-self: flex-end;
+    position: relative;
+    width: 100%;
+    background-color: #FFF;
+    margin: 0;
+  }
 
-    .navbar ul li {
-        position: relative;
-        text-align: center;
-        flex: 1;
-    }
+  .navbar-links ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+  }
 
-    .navbar ul li a {
-        background: white;
-        color: black;
-    }
+  .navbar-links ul li {
+    position: relative;
+    text-align: center;
+    flex: 1;
+    margin: 0;
+    background-color: #777;
+  }
 
-    #navIcon {
-        display: none;
-    }
+  .navbar-links ul li a {
+    background: white;
+    color: black;
+    padding: 0;
+  }
+
+  #navIcon {
+    display: none;
+  }
 }

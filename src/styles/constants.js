@@ -1,5 +1,5 @@
 export const colors = {
-  black: '#222'
+  black: '#444'
 };
 
 export const headerFont = 'News Cycle';
