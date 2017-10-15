@@ -1,8 +1,8 @@
 #navIcon {
     margin: 0 0 0 auto;
     /*align-self: flex-end;*/
-    width: 2.5rem;
-    /*height: 0.5rem;*/
+    width: 3rem;
+    /*height: 1rem;*/
     position: relative;
     transform: rotate(0deg);
     transition: .5s ease-in-out;
@@ -13,7 +13,7 @@
 #navIcon span {
     display: block;
     position: absolute;
-    height: 6px;
+    height: 8px;
     width: 100%;
     background: black;
     border-radius: 9px;
@@ -30,11 +30,11 @@
 }
 
 #navIcon span:nth-child(2),#navIcon span:nth-child(3) {
-    top: 14px;
+    top: 18px;
 }
 
 #navIcon span:nth-child(4) {
-    top: 28px;
+    top: 36px;
 }
 
 #navIcon.open span:nth-child(1) {
