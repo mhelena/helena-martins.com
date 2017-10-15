@@ -77,6 +77,7 @@ const TemplateWrapper = ({children}) => (
         paddingTop: 0,
       }}>
       {children()}
+      {/*<hr/>*/}
     </div>
     <Footer/>
   </div>
