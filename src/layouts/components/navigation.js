@@ -1,22 +1,23 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import {headerFont} from '../../styles/constants';
 
-import styles from './navigation.module.css';
 import './hambuger.css';
 import './header.css';
 
-const navigationList = ['presentations', 'CV'];
+import {headerFont} from '../../styles/constants';
+import {colors} from '../../styles/constants';
+
+const navigationList = ['presentations', 'teaching', 'education', 'CV'];
 
 const Navigation = ({children}) => {
 
   let collapseMenu = null;
+  let hamburgerIcon = null;
 
-  function clickHamburger(event) {
-    // collapseMenu.focus();
-    console.log('collapse menu', collapseMenu);
+  function clickHamburger() {
+    collapseMenu.focus();
     collapseMenu.classList.toggle('hide');
-    event.target.classList.toggle('open');
+    hamburgerIcon.classList.toggle('open');
   }
 
   return (
@@ -28,7 +29,11 @@ const Navigation = ({children}) => {
           {children}
         </div>
 
-        <div id="navIcon" onClick={clickHamburger}>
+        <div id="navIcon"
+             ref={(input) => {
+               hamburgerIcon = input;
+              }}
+             onClick={clickHamburger}>
           <span/>
           <span/>
           <span/>
@@ -36,25 +41,24 @@ const Navigation = ({children}) => {
         </div>
       </div>
 
-      <div className="navbar-collapse">
-        <ul className="nav navbar-nav hide" ref={(input) => {
+      <div className="navbar-links">
+        <ul className="nav hide" ref={(input) => {
           collapseMenu = input;
         }}>
-          <li className="">
-            <a className="page-scroll" href="#services">Services</a>
-          </li>
-          <li className="">
-            <a className="page-scroll" href="#portfolio">Portfolio</a>
-          </li>
-          <li className="">
-            <a className="page-scroll" href="#about">About</a>
-          </li>
-          <li className="">
-            <a className="page-scroll" href="#team">Team</a>
-          </li>
-          <li className="">
-            <a className="page-scroll" href="#contact">Contact</a>
-          </li>
+          {navigationList.map(link => (
+            <li key={link}>
+              <Link
+                to={link}
+                style={{
+                  color: colors.black,
+                  textDecoration: 'none',
+                  fontFamily: headerFont
+                }}
+                onClick={clickHamburger}>
+                {link}
+              </Link>
+            </li>
+          ))}
         </ul>
       </div>
     </nav>

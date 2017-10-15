@@ -23,16 +23,6 @@ const Header = () => (
         padding: '0.5rem 1rem',
       }}
     >
-      {/*<h1 style={{margin: 0, alignSelf: 'center'}}>*/}
-        {/*<Link*/}
-          {/*to="/"*/}
-          {/*style={{*/}
-            {/*color: colors.black,*/}
-            {/*textDecoration: 'none',*/}
-          {/*}}>*/}
-          {/*Helena Martins*/}
-        {/*</Link>*/}
-      {/*</h1>*/}
       <Navigation>
         <h1 style={{margin: 0, alignSelf: 'center'}}>
           <Link
@@ -64,7 +54,7 @@ const Footer = () => (
         padding: '1rem 1rem'
       }}
     >
-      Linkedin
+      .
     </div>
   </div>
 );
