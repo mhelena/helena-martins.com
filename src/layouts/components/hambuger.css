@@ -6,7 +6,7 @@
   transition: .5s ease-in-out;
   cursor: pointer;
   float: right;
-  user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 #navIcon span {
