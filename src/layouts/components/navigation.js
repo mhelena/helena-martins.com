@@ -7,7 +7,7 @@ import './header.css';
 import {headerFont} from '../../styles/constants';
 import {colors} from '../../styles/constants';
 
-const navigationList = ['presentations', 'teaching', 'education', 'CV'];
+const navigationList = ['publications', 'teaching', 'education', 'CV'];
 
 const Navigation = ({children}) => {
 
