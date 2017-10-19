@@ -10,7 +10,7 @@ const Teaching = () => (
     <ul>
       <li><strong>Tutor in the Brazilian Government Distance Learning Program (EAD) in the Universidade Federal de Santa Catarina, Brazil (2010)</strong></li>
     </ul>
-    <p>In 2010, I worked as a tutor for the Brazilian Government Distance Learning Program (EAD). I gave online lessons, for about 1200 students from 18 cities across Brazil. I was responsible for the course “Methods of Physics and Mathematics”. To stay in contact with the students and manage the course, I used the open-source software learning management system, .</p>
+    <p>In 2010, I worked as a tutor for the Brazilian Government Distance Learning Program (EAD). I gave online lessons, for about 1200 students from 18 cities across Brazil. I was responsible for the course “Methods of Physics and Mathematics”. To stay in contact with the students and manage the course, I used the open-source software learning management system, Moodle.</p>
     <ul>
       <li><strong>Coach for the Brazilian Math Olympiad (OBM) among others in the Universidade Federal de Santa Catarina, Brazil (2007-2010)</strong></li>
     </ul>
