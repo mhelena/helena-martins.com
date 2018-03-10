@@ -23,7 +23,7 @@ const IndexPage = () => (
     </div>
     <div className={styles.interests}>
       <h2 className={styles.interestsTitle} style={{fontFamily: 'Dancing Script'}}>
-        My main point of interest are:</h2>
+        My main points of interest are:</h2>
       <ul>
         {interests.map(interest => <li key={interest}>{interest}</li>)}
       </ul>
