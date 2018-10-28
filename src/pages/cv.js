@@ -5,12 +5,12 @@ const Curriculum = () => (
     <h1>Curriculum Vitae</h1>
 
     <h2 id="research-interests">Research Interests</h2>
-    <p>I am interested in mathematics and statistics applied to biology, specially in population genetics and systems biology. My current projects involve the development of statistical approaches for the inference in population structure and local adaptation from genomic data. Considering this field, I’m interest in computational languages as R and Python and in analyse large-scale datasets.</p>
+    <p>I am interested in mathematics and statistics applied to real problems related to public health, genetics and systems biology. My current projects involve the development of statistical approaches for the inference in population structure and local adaptation from genomic data. Considering this field, I'm interested in computational languages as R and Python.</p>
 
     <h2 id="education">Education</h2>
     <h2 id="experience">Experience</h2>
-    <h3 id="ph.d-student-in-université-de-grenoble-2015-current">Ph.D Student in Université de Grenoble (2015 – current)</h3>
-    <p>Finding genetic signatures of local adaptation is the focus of my thesis. Considering this goal, I developed a new statistic method to identify loci under selection based on an extension of the <span className="math inline">\(FST\)</span> statistic in order to handle populations with admixed individuals. The performance of my method was illustrated using by re-analysing genomic data from European lines of the plant species <em>Arabidopsis thaliana</em> and human genomic data from the population reference sample, POPRES. Currently, I’m working in new genome scans tests accounting Linkage Disequilibrium (LD) in the data using pruning methods. During my thesis, I worked especially with the languages R and Python. For simulated data, I acquired experience using the software ms and the toolset plink.</p>
+    <h3 id="ph.d-student-in-université-de-grenoble-2015-current">PhD Université de Grenoble Alpes (2015 – 2018)</h3>
+    <p>Finding genetic signatures of local adaptation is the focus of my thesis. Considering this goal, I developed a new statistic method to identify loci under selection based on an extension of the Fixation Index statistic in order to handle populations with admixed individuals. The performance of my method was illustrated using by re-analysing genomic data from European lines of the plant species <em>Arabidopsis thaliana</em> and human genomic data from the population reference sample, POPRES. Currently, I’m working in new genome scans tests accounting Linkage Disequilibrium (LD) in the data using pruning methods. During my thesis, I worked especially with the languages R and Python. For simulated data, I acquired experience using the software ms and the toolset plink.</p>
     <h3 id="master-student-in-automation-and-systems-engineering-universidade-federal-de-santa-catarina-florianópolis-brazil.-2011-2014">Master Student in Automation and Systems Engineering, Universidade Federal de Santa Catarina, Florianópolis, Brazil. (2011-2014)</h3>
     <p>In my master research, I worked in the Systems Biology field. The base of my study was the little worm <em>Carnorhabditis elegans</em> (C. <em>elegans</em>), that is considered one of the best model organisms for research in neurobiology and in many process like; the adoptosis (programmed cell death), cell signalling, gene regulation, metabolism, the ageing and sex determining. With the increasing number of biological information, obtained through technological advances applied to the researches, it became crucial to utilize computational approaches to analyse the knowledge gathered about the worm C. <em>elegans</em>. During my master degree I created a model in Petri Nets for the phase L3 of vulvar development of this worm. The effectiveness of the proposed model was demonstrated comparing the results of Petri Nets simulations with experiments in vivo.</p>
     <h3 id="professor-in-the-mathematics-department-in-the-universidade-federal-de-santa-catarina-brazil-2012---2013">Professor in the Mathematics Department in the Universidade Federal de Santa Catarina, Brazil (2012 - 2013)</h3>
@@ -29,6 +29,7 @@ const Curriculum = () => (
       <li>English (fluent)</li>
       <li>French (fluent)</li>
       <li>Spanish (basic)</li>
+      <li>Italian (basic)</li>
     </ul>
 
     <h2 id="scientific-production">Scientific Production</h2>
