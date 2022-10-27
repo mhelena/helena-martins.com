@@ -7,8 +7,10 @@ const Curriculum = () => (
     <h2 id="research-interests">Research Interests</h2>
     <p>I am interested in mathematics and statistics applied to real problems related to public health, genetics and systems biology. My current projects involve the development of statistical approaches for the inference in population structure and local adaptation from genomic data. Considering this field, I'm interested in computational languages as R and Python.</p>
 
-    <h2 id="education">Education</h2>
     <h2 id="experience">Experience</h2>
+    <h3 id="ucl">Research Fellow - Bioinformatician at University College London, London, England</h3>
+    <p>Helena is Research fellow at University College London, Department of Clinical and Experimental Epilepsy, working on genomics in the epilepsies as part of a translational genomics programme under the supervision of Professor Sanjay Sisodiya. She is responsible for the application of genomic technologies in order to realise translation of personalised medicine for people with epilepsy.</p>
+    <p>She works with research on genomic and close collaborates in external projects, such as with Genomics England Ltd (100,000 Genomes project) and other national (UK) and international initiatives.</p>
     <h3 id="phd">PhD in Computational and Mathematical Biology, Université de Grenoble Alpes, Grenoble, France (2015 – 2018)</h3>
     <p>Finding genetic signatures of local adaptation is the focus of my thesis. Considering this goal, I developed a new statistic method to identify loci under selection based on an extension of the Fixation Index statistic in order to handle populations with admixed individuals. The performance of my method was illustrated using by re-analysing genomic data from European lines of the plant species <em>Arabidopsis thaliana</em> and human genomic data from the population reference sample, POPRES. Currently, I’m working in new genome scans tests accounting Linkage Disequilibrium (LD) in the data using pruning methods. During my thesis, I worked especially with the languages R and Python. For simulated data, I acquired experience using the software ms and the toolset plink.</p>
     <h3 id="master">Master Student in Automation and Systems Engineering, Universidade Federal de Santa Catarina, Florianópolis, Brazil. (2011-2014)</h3>
