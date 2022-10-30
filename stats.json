@@ -1,0 +1,76 @@
+{
+  "assetsByChunkName": {
+    "path---publications": [
+      "path---publications-a0e39f21c11f6a62c5ab.js",
+      "path---publications-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-f3462c34e422e3c93c4b.js",
+      "component---src-pages-index-js-f3462c34e422e3c93c4b.js.map"
+    ],
+    "path---cv": [
+      "path---cv-a0e39f21c11f6a62c5ab.js",
+      "path---cv-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---src-pages-teaching-js": [
+      "component---src-pages-teaching-js-61fc543492c1174f4201.js",
+      "component---src-pages-teaching-js-61fc543492c1174f4201.js.map"
+    ],
+    "component---src-pages-publications-js": [
+      "component---src-pages-publications-js-bde88c55a305da58e456.js",
+      "component---src-pages-publications-js-bde88c55a305da58e456.js.map"
+    ],
+    "path---education": [
+      "path---education-a0e39f21c11f6a62c5ab.js",
+      "path---education-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-41d66896e8ef124f565e.js",
+      "component---src-layouts-index-js-41d66896e8ef124f565e.js.map"
+    ],
+    "component---src-pages-education-js": [
+      "component---src-pages-education-js-5e88726d4684f4a2a259.js",
+      "component---src-pages-education-js-5e88726d4684f4a2a259.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-6a499c3f3020caef31e6.js",
+      "component---src-pages-404-js-6a499c3f3020caef31e6.js.map"
+    ],
+    "commons": [
+      "commons-99e6f6a1a756de58c216.js",
+      "build-js-styles.css",
+      "commons-99e6f6a1a756de58c216.js.map",
+      "build-js-styles.css.map"
+    ],
+    "component---src-pages-cv-js": [
+      "component---src-pages-cv-js-5f1941d0362bdafdd165.js",
+      "component---src-pages-cv-js-5f1941d0362bdafdd165.js.map"
+    ],
+    "path---teaching": [
+      "path---teaching-a0e39f21c11f6a62c5ab.js",
+      "path---teaching-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-78667c28a73e48baf5a9.js",
+      "build-js-styles.css",
+      "app-78667c28a73e48baf5a9.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}
