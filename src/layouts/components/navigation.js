@@ -4,13 +4,12 @@ import Link from 'gatsby-link';
 import './hambuger.css';
 import './header.css';
 
-import {headerFont} from '../../styles/constants';
-import {colors} from '../../styles/constants';
+import { headerFont } from '../../styles/constants';
+import { colors } from '../../styles/constants';
 
 const navigationList = ['publications', 'teaching', 'education', 'CV'];
 
-const Navigation = ({children}) => {
-
+const Navigation = ({ children }) => {
   let collapseMenu = null;
   let hamburgerIcon = null;
 
@@ -21,40 +20,42 @@ const Navigation = ({children}) => {
   }
 
   return (
-
     <nav className="navbar">
-
       <div className="main-menu">
-        <div>
-          {children}
-        </div>
+        <div>{children}</div>
 
-        <div id="navIcon"
-             ref={(input) => {
-               hamburgerIcon = input;
-              }}
-             onClick={clickHamburger}>
-          <span/>
-          <span/>
-          <span/>
-          <span/>
+        <div
+          id="navIcon"
+          ref={(input) => {
+            hamburgerIcon = input;
+          }}
+          onClick={clickHamburger}
+        >
+          <span />
+          <span />
+          <span />
+          <span />
         </div>
       </div>
 
       <div className="navbar-links">
-        <ul className="nav hide" ref={(input) => {
-          collapseMenu = input;
-        }}>
-          {navigationList.map(link => (
+        <ul
+          className="nav hide"
+          ref={(input) => {
+            collapseMenu = input;
+          }}
+        >
+          {navigationList.map((link) => (
             <li key={link}>
               <Link
                 to={link}
                 style={{
                   color: colors.black,
                   textDecoration: 'none',
-                  fontFamily: headerFont
+                  fontFamily: headerFont,
                 }}
-                onClick={clickHamburger}>
+                onClick={clickHamburger}
+              >
                 {link}
               </Link>
             </li>
@@ -62,7 +63,7 @@ const Navigation = ({children}) => {
         </ul>
       </div>
     </nav>
-  )
+  );
 };
 
 export default Navigation;

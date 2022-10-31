@@ -3,7 +3,7 @@
   width: 2.5rem;
   position: relative;
   transform: rotate(0deg);
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
   cursor: pointer;
   float: right;
   -webkit-tap-highlight-color: transparent;
@@ -19,14 +19,15 @@
   opacity: 1;
   left: 0;
   transform: rotate(0deg);
-  transition: .25s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 #navIcon span:nth-child(1) {
   top: 0;
 }
 
-#navIcon span:nth-child(2), #navIcon span:nth-child(3) {
+#navIcon span:nth-child(2),
+#navIcon span:nth-child(3) {
   top: 14px;
 }
 
