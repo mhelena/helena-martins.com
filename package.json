@@ -26,6 +26,6 @@
   },
   "devDependencies": {
     "gh-pages": "^1.0.0",
-    "prettier": "^1.6.1"
+    "prettier": "^2.7.1"
   }
 }
