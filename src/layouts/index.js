@@ -4,7 +4,7 @@ import Navigation from './components/navigation';
 import Helmet from 'react-helmet';
 import Link from 'gatsby-link';
 
-import {colors} from '../styles/constants';
+import { colors } from '../styles/constants';
 import '../styles/reset-style.css';
 
 const Header = () => (
@@ -12,7 +12,7 @@ const Header = () => (
     style={{
       background: 'white',
       marginBottom: '1.45rem',
-      borderBottom: `1px gray solid`
+      borderBottom: `1px gray solid`,
     }}
   >
     <div
@@ -24,13 +24,14 @@ const Header = () => (
       }}
     >
       <Navigation>
-        <h1 style={{margin: 0, alignSelf: 'center'}}>
+        <h1 style={{ margin: 0, alignSelf: 'center' }}>
           <Link
             to="/"
             style={{
               color: colors.black,
               textDecoration: 'none',
-            }}>
+            }}
+          >
             Helena Martins
           </Link>
         </h1>
@@ -42,7 +43,7 @@ const Header = () => (
 const Footer = () => (
   <div
     style={{
-      background: 'white'
+      background: 'white',
     }}
   >
     <div
@@ -51,7 +52,7 @@ const Footer = () => (
         justifyContent: 'flex-end',
         margin: '0 auto',
         maxWidth: 960,
-        padding: '1rem 1rem'
+        padding: '1rem 1rem',
       }}
     >
       .
@@ -59,13 +60,13 @@ const Footer = () => (
   </div>
 );
 
-const TemplateWrapper = ({children}) => (
+const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
       title="H. Martins"
       meta={[
-        {name: 'description', content: 'Helena Martins Website'},
-        {name: 'keywords', content: 'doctor, statistics, mathematics'},
+        { name: 'description', content: 'Helena Martins Website' },
+        { name: 'keywords', content: 'doctor, statistics, mathematics' },
       ]}
     />
     <Header />
@@ -75,11 +76,12 @@ const TemplateWrapper = ({children}) => (
         maxWidth: 960,
         padding: '0px 1.0875rem 1.45rem',
         paddingTop: 0,
-      }}>
+      }}
+    >
       {children()}
       {/*<hr/>*/}
     </div>
-    <Footer/>
+    <Footer />
   </div>
 );
 

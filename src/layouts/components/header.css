@@ -11,13 +11,13 @@
 
 .hide {
   display: none;
-  transition:all .5s;
+  transition: all 0.5s;
 }
 
 .navbar-links {
   position: absolute;
   width: 100%;
-  background-color: #FFF;
+  background-color: #fff;
   margin-top: 1rem;
   /*z-index: 40;*/
 }
@@ -45,7 +45,7 @@
     padding: 0.5rem 0;
     border: 0;
     background-color: transparent;
-    transition: padding .3s;
+    transition: padding 0.3s;
     display: flex;
   }
 
@@ -58,7 +58,7 @@
     align-self: flex-end;
     position: relative;
     width: 100%;
-    background-color: #FFF;
+    background-color: #fff;
     margin: 0;
   }
 

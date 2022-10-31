@@ -18,7 +18,7 @@
   flex-grow: 1;
 }
 
-.interests ul{
+.interests ul {
   list-style-type: lower-greek;
 }
 
@@ -27,9 +27,7 @@
 }
 
 @media (min-width: 768px) {
-
   .interests {
     padding-top: 3rem;
   }
-
 }
